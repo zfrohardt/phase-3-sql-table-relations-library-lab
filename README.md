@@ -1,4 +1,13 @@
-# SQL Fantasy Library
+# SQL Library Lab
+
+## Learning Goals
+
+* Become comfortable writing SQL statements to create tables that have complex
+  relations with each other
+* Understand and implement JOINs to write complex `SELECT` statements to query a
+  database
+
+## Introduction
 
 We're going to build a SQL database that will keep track of books from a fantasy
 series in a library. These types of books can get complex, with many characters
@@ -7,13 +16,6 @@ that are species other than human. We will have tables for: `Characters`,
 `Books`, `Series`, `Authors`, and `Sub-Genres`. For a refresher on SQL syntax as
 you work through this lab, the W3Schools SQL Tutorial is a helpful reference, as
 well as the resources listed below.
-
-## Objectives
-
-* Become comfortable writing SQL statements to create tables that have complex
-  relations with each other
-* Understand and implement JOINs to write complex `SELECT` statements to query a
-  database
 
 ## Section 1: `schema.sql`
 
